@@ -1,0 +1,37 @@
+<img src="/images/spceSub.png" id="imagespaceSub">
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-lg-4 col-md-offset-4 col-sm-offset-5s">
+        <h1>Sign Up</h1>
+        {{#if hasErrors}}
+            <div class="alert alert-danger">
+                {{# each messages}}
+                    <p>{{ this }}</p>
+                {{/each}}
+            </div>
+        {{/if}}
+        <h3 id="loginTitle">SIGNUP FOR FREE</h3>
+            <form action="/user/signup" method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Password</label>
+                    <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
+                </div>
+                <label for="exampleInputEmail1">Role</label>
+                <select name="role" class="form-control">
+                <option value="un-client">User Client</option>
+                <option value="un-admin">Administrator</option>
+                <option value="un-contributor">Contributors</option>
+                </select>
+                
+                <div class="col-md-12 text-center ">
+                    <button type="submit" class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3 loginBtn">Sign Up</button>
+                </div>
+                
+                <input type="hidden" name="_csrf" value="{{csrfToken}}">
+            
+        </form>
+    </div>
+</div>

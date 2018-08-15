@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Julius+Sans+One|Ubuntu+Condensed|Yanone+Kaffeesatz');
+.thumbnail img {
+    max-height: 280px;
+    width: 100%;
+}
+
+.thumbnail .description {
+    color: white;
+}
+.thumbnail{
+    background-color: #383838;
+}
+.roleName{
+    color: black;
+}
+#priceOrders{
+    color: white;
+}
+#roleColor{
+    color: gray;
+    font-weight: bold;
+}
+.card{
+    margin-top: 100px;
+}
+#addTitle{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5%;
+    color: black;
+}
+h3{
+    font-family: 'Cuprum', sans-serif;
+}
+#titleFot{
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#noItems{
+    color: black;
+}
+#textFot{
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 2em;
+}
+.price {
+    margin-left: 40%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 16px;
+    color: #ff5023;
+}
+#noItems{
+    color: #000;
+    text-align: center;
+}
+
+.body{
+	font-family: 'Gothic A1', sans-serif;
+    font-size:16px;
+   
+   
+    
+    }
+    html{
+        overflow-x: hidden;
+    }
+    #imagespaceSub{
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        
+       
+    }
+    #btnCheckout{
+        height: 35px;
+        width: 20%;
+        font-size: 14px;
+        margin-left: 40%;
+        margin-right: 40%;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        margin-bottom: 2%;
+        background-color: #ff5023;
+        border-color: #ff5023;
+        border-radius: 25px;
+    }
+    #titleTd{
+        font-size: 120%;
+        padding-top: 2%;
+    }
+    #btnCheckout:hover{
+        background-color: black;
+        border-color: black;
+    }
+    #qtyBadge{
+        font-size: 100%;
+        padding-bottom: 2px;
+        border-radius: 25px;
+    }
+    .img-cart{
+        max-height: 70px;
+        width: 13%;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+    #totalPrice{
+        font-family: 'Cuprum', sans-serif;
+        font-size: 170%;
+        text-align: center;
+        
+    }
+    .login-or{
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    #loginTitle{
+        color: #000;
+        font-size: 25px;
+        margin-bottom: 5%;
+    }
+    .loginBtn{
+        margin-top: 3%;
+        font-family: 'Ubuntu Condensed', sans-serif;
+        width: 70%;
+        padding-top: 1.4%;
+        padding-bottom: 1.4%;
+        font-size: 150%;
+        color: white;
+        background-color: gray;
+        border: none;
+        border-radius: 5px;
+    }
+    .signupBtn{
+        font-family: 'Ubuntu Condensed', sans-serif;
+        width: 70%;
+        padding-top: 1.4%;
+        padding-bottom: 1.4%;
+        font-size: 150%;
+        color: white;
+        background-color: #ff5023;
+        border: none;
+        border-radius: 5px;
+    }
+    #badge{
+        font-size: 11px;
+        border-radius: 2px;
+    }
+    .btn-circle.btn-lg {
+        width: 50px;
+        height: 50px;
+        padding: 10px 16px;
+        font-size: 18px;
+      
+        border-radius: 25px;
+        margin-left: 32%;
+        border-color: rgb(255, 255, 255, 0.01);
+        background-color: rgb(255, 255, 255, 0.01);
+      }
+      .btn-circle.btn-lg:hover{
+        background-color: rgb(255, 255, 255, 0.8)
+    }
+      
+	p{
+
+	color:white;
+    font-size:1em;
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #author{
+        margin-left: 30%;
+    }
+    h3{
+        text-align: center;
+    }
+	h1,h2,h3,h4,h5,h6{color:white;}
+.navbar-brand  span{
+	color: #ff5023;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+    color: #fff;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 110%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+   
+}
+.navbar-nav .nav-item .nav-link:hover{color:#ff5023;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #ff5023;
+}
+.dropdown-item:hover{background-color:#ff5023;color:#fff;}
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+	}
+	
+ .shrink {
+  
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+    height: 15%;
+    width: 100%;
+    
+}
+#noItems{
+    font-size: 2em;
+    margin-top: 1%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    
+
+}
+#emptyImage{
+    margin-left: 40%;
+    margin-top: 15%;
+    width: 20%;
+}
+#imageLogo{
+    margin-top: 2%;
+    width: 16%;
+}
+
+.banner{
+	background-image:url('https://wallpapersite.com/images/wallpapers/distant-planet-1920x1080-moon-horizon-sunset-4k-9819.png');
+	text-align: center;
+    color: #fff;
+    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.banner-text{
+	padding:200px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 70px;
+    font-weight: 700;
+    line-height: 100px;
+    margin-bottom: 130px;
+   
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 30px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+	color:#fff;
+}
+
+.btn-banner{
+    color: white;
+	padding:10px 35px;
+	border-radius:25px;
+	font-weight:700;
+    line-height:1.5;
+    background-color: #ff5023;
+    text-align:center;
+    font-size: 11px;
+	
+	text-transform:uppercase;
+}
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+#imagebook{
+    width: 90%;
+}
+#pBook{
+    margin-left: 23%;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.3em;    
+    font-weight: bolder;
+    opacity: 0.8;
+    padding-top: 4%;
+}
+#userProfile{
+    margin-top: 5%;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+#titleItem{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.4em;
+
+}
+#itemQtyO{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.4em;
+}
+#priceOrders{
+    font-size: 1em;
+    padding-bottom: 0.6%;
+}
+#itemTitleO{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.4em;
+}
+#buttonAdd{
+    background-color: #000;
+    border-color: #000;
+    width: 50%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.4em;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.panel-footer{
+    background-color: #ff5023;
+    color: whitesmoke;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.4em;
+}
+#qtyPrice{
+    background-color: #000;
+    font-size: 1em;
+    padding-bottom: 0.7%;
+    opacity: 0.8;
+}
+#pWorld{
+    padding-top: 4%;
+    margin-left: 24%;
+    text-align: center;
+    width: 50%;
+    color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.3em;    
+    font-weight: bold;
+    opacity: 0.8;
+   
+}
+#pRock{
+    opacity: 0.8;
+    padding-top: 4%;
+    
+    margin-left: 20%;
+    text-align: center;
+    width: 60%;
+    color: black;
+    padding-bottom: 23%;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.3em;   
+    font-weight: bold
+}
+#image1{
+    margin-left: 35%;
+    transition: transform .2s;
+    margin-top: 25%;
+    opacity: 0.7;
+    
+}
+#image1:hover{
+    transform: scale(1.5);
+}
+#image2:hover{
+    transform: scale(1.5);
+}
+#image3:hover{
+    transform: scale(1.5);
+}
+#imagesThree{
+    text-align: center;
+    
+    color: black;
+    font-size: 20px;
+    
+}
+#checkoutBuy{
+    margin-left: 30%;
+    width: 40%;
+    background-color: black;
+    border-color: black
+}
+#image2{
+    transition: transform .2s;
+    margin-left: 35%;
+    margin-top: 25%;
+    opacity: 0.7;
+}
+#image3{
+    transition: transform .2s;
+    margin-left: 35%;
+    margin-top: 25%;
+    opacity: 0.7;
+}
+
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.hero a {
+    font-size: 1.7em;    
+    width: 19%;
+    
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+#bs-carousel{
+    margin-bottom: 10%;
+}
+/********************************/
+/*            Overlay           */
+/********************************/
+
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #ff5023;
+    border-color: #ff5023;
+    outline: none;
+    margin: 20px auto;
+}
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(https://coubsecure-s.akamaihd.net/get/b83/p/coub/simple/cw_timeline_pic/9d9eec5dba1/8cf5bc6d96b84eaadeb56/big_1472003552_image.jpg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/62/Under_the_Spell_of_the_Magellanic_Clouds.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(https://3c1703fe8d.site.internapcdn.net/newman/gfx/news/hires/2017/overlookedtr.jpg);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+.text-intro{
+	width:90%;
+	margin:auto;
+	text-align:center;
+	padding-top:30px;
+}
+
+
+/* mobile view */
+@media (max-width:500px)
+{
+	.navbar-nav{
+		background-color:#000;
+		border-top:3px solid #ff5023;
+		color:#fff;
+		z-index:1;
+		margin-top:5px;
+		}
+	.navbar-nav .nav-item .nav-link{
+	padding: 0.7em 1em!important;
+	font-size: 100%;
+    font-weight: 500;
+    }
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+.shoppingcartid{
+    padding-top: 20%;
+}
+.banner-heading{
+	font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 10px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+}
+
+@media (max-width:768px){
+	.banner-text{
+	padding:150px 0 150px 0;
+}
+	.banner-sub-heading{
+	font-size: 23px;
+    font-weight: 200;
+    line-height: 23px;
+    margin-bottom: 40px;
+}
+
+}
+#addBookId{
+    margin-top: 3%;
+}
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ; margin-top: 40%;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}

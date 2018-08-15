@@ -1,0 +1,128 @@
+
+
+<div class="container">
+    
+</div>
+<div class="banner">
+	
+	<div class="banner-text">
+	<div class="banner-heading">
+        
+        Immerse yourself in space
+	</div>
+	<div class="banner-sub-heading">
+        New books about space every week
+	</div>
+	
+    <a href="/user/signin/"><button type="button" class="btn btn-banner">Buy Now</button></a>
+	</div>
+	
+</div>
+
+<div class="row">
+
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <a href="#books">
+            <img class="img-responsive" src="https://s3.amazonaws.com/libapps/accounts/7487/images/icon_5020.png" alt="" style="width:28%" id="image1">
+        </a>
+        <h1 id="imagesThree"><p id="pBook">10,000 BOOKS</p></h>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <a>
+            <img class="img-responsive" src="http://icons-for-free.com/icon/download-planet_icon-289182.png" alt="" style="width:30%" id="image2">
+            <h3 id="imagesThree"><p id="pWorld">WORLDWIDE</p></h3>
+        </a>
+    </div>
+    <div class="col-lg-4 col-md-4 col-xs-4 thumb">
+        <a>
+            <img class="img-responsive" src="http://cdn.onlinewebfonts.com/svg/img_513577.png" alt="" style="width:30%" id="image3">
+            <h3 id="imagesThree"><p id="pRock">IMAGINATION</p></h3>
+        </a>
+    </div>
+</div>
+
+
+<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="8000" id="bs-carousel">
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Indicators -->
+  
+  
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1"></div>
+      <div class="hero">
+        <hgroup>
+            <h1>The Planet Factory</h1>        
+            <h3>The Search for a Second Earth</h3>
+        </hgroup>
+        <a href="/user/signin" class="btn btn-hero btn-lg" role="button" id="sliderBtn">Buy A Book</a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Making Contact</h1>        
+            <h3>Humans Will Hear from Intelligent Aliens This Century</h3>
+        </hgroup>       
+        <a href="/user/signin" class="btn btn-hero btn-lg" role="button" id="sliderBtn">Buy A Book</a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3"></div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Exoplanets</h1>        
+            <h3>Planets Beyond Our Solar System</h3>
+        </hgroup>
+        <a href="/user/signin" class="btn btn-hero btn-lg" role="button" id="sliderBtn">Buy A Book</a>
+      </div>
+    </div>
+  </div> 
+</div>
+<div class="row">
+    <div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3">
+        <div id="success" class="alert alert-success" {{#if noMessages}}hidden{{/if}}>
+            {{ successMsg }}
+        </div>
+    </div>
+</div>
+{{# each products}}
+    <div class="row" name="books">
+        {{# each this}}
+            <div class="col-sm-2 col-md-2 col-lg-2">
+                <div class="thumbnail">
+                    <img src="{{ this.imagePath}}" alt="..." class="img-responsive">
+                    <div class="caption">
+                        <h3>{{ this.title}}</h3>
+                        <p class="description">{{ this.description}}</p>
+                        <div class="clearfix">
+                            <div class="price pull-left">${{ this.price}}</div>
+                            
+                        </div>
+                        <p id="author">by {{ this.author}}</p>
+                        <a href="/add-to-cart/{{this._id}}" class="btn btn-info btn-circle btn-lg" role="button" aria-pressed="true"><i class="glyphicon glyphicon-ok"></i></a>            
+                    </div>
+                </div>
+            </div>
+        {{/each}} 
+    </div>
+{{/each}}
+
+<script>
+    $(document).on("scroll", function(){
+		if
+      ($(document).scrollTop() > 400){
+		  $("#banner").addClass("shrink");
+		}
+		else
+		{
+			$("#banner").removeClass("shrink");
+		}
+	});
+</script>
+
+

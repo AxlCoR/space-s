@@ -1,0 +1,32 @@
+<img src="/images/spceSub.png" id="imagespaceSub">
+
+<div class="col-sm-6 col-md-6 col-lg-4 col-md-offset-4 col-sm-offset-5" id="addBookId">
+    <h3 id="addTitle">ADD AN AMAZING BOOK</h3>
+    <form action="/add-books" method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Title</label>
+            <input name="title" type="text" class="form-control"
+            placeholder="Title" required autofocus>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Image URL</label>
+            <input name="imagePath" type="text" class="form-control" placeholder="ImageURL" required autofocus>
+        </div>
+        <div class="form-group"> 
+            <label for="exampleInputEmail1">Description</label>
+            <input name="description" type="text" class="form-control" placeholder="Description" required autofocus>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Price</label>
+            <input name="price" type="number" class="form-control" placeholder="Price" required autofocus>
+        </div>
+        <div class="form-group"> 
+            <label for="exampleInputEmail1">Author</label>
+            <input name="author" type="text" class="form-control" placeholder="Author" required autofocus>
+        </div>
+
+        <br>
+        <button type="submit" class="btn btn-primary btn-block" id="buttonAdd">ADD BOOK</button>
+      
+</form>
+</div>
